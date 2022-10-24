@@ -1,0 +1,94 @@
+.rs-picker-select-menu {
+  z-index: 999999999 !important;
+  margin-top: 12px;
+  max-width: 280px !important;
+  padding: 0 !important;
+}
+.rs-picker-select-menu-item {
+  font-size: 14px;
+  padding: 5px 0 !important;
+  color: #777e91;
+  border-radius: 6px !important;
+}
+.rs-picker-select-menu-item:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.rs-picker-select-menu-item-focus {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.rs-picker-search-bar-input:hover {
+  border: 1px solid #efefef !important;
+  box-shadow: none !important;
+}
+.rs-picker-select-menu-items {
+  padding: 6px 20px !important;
+  margin: 0 !important;
+}
+.rs-picker-search-bar {
+  padding: 15px 20px !important;
+  border-bottom: 1px solid #efefef;
+}
+.rs-picker-menu .rs-picker-search-bar .rs-picker-search-bar-search-icon {
+  /* top: 22px !important;
+  right: 33px !important; */
+}
+
+.rs-picker-toggle.rs-btn svg {
+  width: 10px;
+}
+.menuclass .rs-picker-select-menu-items {
+  padding: 20px !important;
+}
+/* summary classes */
+.summarySelect {
+  border-radius: 10px;
+}
+.summarySelect .rs-picker-select-menu-items {
+  padding: 8px !important;
+  border-radius: 4px;
+}
+.summarySelect .rs-picker-select-menu-item-active {
+  background-color: #eef9f0 !important;
+}
+.summarySelect .rs-picker-select-menu-item-active div {
+  color: #45b36b !important;
+}
+.summarySelect .rs-picker-select-menu-items div {
+  margin: 4px 0 !important;
+}
+.summarySelect .rs-picker-select-menu-grouped .rs-picker-select-menu-item div {
+  width: min-content !important;
+  margin: auto !important;
+}
+.summarySelect .rs-picker-search-bar {
+  padding: 8px !important;
+  border-bottom: none !important;
+}
+.summarySelect .rs-picker-search-bar-search-icon {
+  top: 15px !important;
+  right: 23px !important;
+}
+.rs-picker-search-bar-input {
+  background: #f4f5f6;
+  border: none !important;
+}
+.rs-picker-search-bar-input:focus,
+.rs-picker-search-bar-input:hover:not(:disabled) {
+  border: none !important;
+  box-shadow: none !important;
+  border-color: none !important;
+}
+.rs-picker-date-menu {
+  z-index: 99999;
+  margin-top: 10px;
+}
+.rs-picker-select-menu-items .rs-picker-menu-group:not(:first-child) {
+  border-top: none !important;
+}
+.rs-picker-select-menu-grouped {
+  max-height: 500px !important;
+  /* width: 255px; */
+}
+/* end summary classes */

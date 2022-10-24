@@ -1,0 +1,155 @@
+.rs-picker-date-menu {
+  box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
+  border-radius: 10px !important;
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+}
+.rs-picker-daterange-header {
+  color: #777e90;
+  font-size: 12px;
+  font-weight: 400;
+  height: 40px;
+  padding: 10px 16px !important;
+}
+.rs-calendar-header {
+  padding-left: 0 !important;
+  padding-right: 25px !important;
+  margin-bottom: 10px !important;
+}
+.rs-calendar-header-backward,
+.rs-calendar-header-forward,
+.rs-calendar-header-title {
+  color: #777e90 !important;
+}
+.rs-calendar-header-btn-disabled {
+  color: #b1b5c3 !important;
+}
+.rs-calendar-header-forward {
+  margin-right: 55px;
+}
+.rs-calendar-header-title {
+  font-size: 12px !important;
+  padding: 2px !important;
+  margin: 0 !important;
+}
+.rs-calendar-table-cell .rs-calendar-table-cell-content {
+  font-size: 12px;
+  font-weight: 500;
+}
+.rs-calendar-table-cell-day {
+  font-weight: 400;
+  font: 12px;
+}
+.rs-calendar-table-cell {
+  width: 0% !important;
+  padding: 0 !important;
+  height: 26px !important;
+  transition: 0.5s ease;
+}
+.rs-calendar-table-header-row .rs-calendar-table-cell span {
+  padding-top: 3px !important;
+  color: #777e90 !important;
+  transition: 0.4s ease !important;
+  cursor: pointer !important;
+}
+.rs-calendar-table-cell-content {
+  transition: 0.4s ease;
+  height: 26px !important;
+}
+.rs-calendar-table-cell-un-same-month span {
+  color: #b1b5c3 !important;
+  font-weight: 500;
+}
+.rs-calendar-table-cell-content:hover {
+  background: rgba(69, 179, 107, 0.1) !important;
+  color: #353945 !important;
+  font-weight: 600 !important;
+}
+.rs-calendar-table-cell-is-today {
+  background: rgba(69, 179, 107, 0.1);
+  border-radius: 6px;
+}
+.rs-calendar-table-cell-is-today .rs-calendar-table-cell-content {
+  box-shadow: none !important;
+  height: 26px !important;
+}
+.rs-calendar-table-cell-is-today .rs-calendar-table-cell-day {
+  font-weight: 600;
+}
+.rs-calendar {
+  padding: 20px 0 30px 0 !important;
+}
+.rs-calendar-view {
+  padding: 4px 0 0 12px !important;
+}
+.rs-btn-primary {
+  background: #45b36b !important;
+  border-radius: 5px !important;
+}
+.rs-calendar-time-dropdown-cell-active {
+  background-color: #45b36b !important;
+  border-radius: 5px !important;
+}
+.rs-calendar-time-dropdown-cell:hover {
+  background: rgba(69, 179, 107, 0.1) !important;
+  color: #45b36b !important;
+}
+.rs-calendar-time-dropdown-column ul::-webkit-scrollbar {
+  width: 6px;
+}
+.rs-calendar-time-dropdown-column ul::-webkit-scrollbar-track {
+  display: none;
+}
+.rs-calendar-time-dropdown-column ul::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.rs-calendar-time-dropdown-column ul::-webkit-scrollbar-thumb:hover {
+  background-color: #777e90;
+}
+.rs-calendar-time-dropdown-column ul::-webkit-scrollbar-button {
+  display: none;
+}
+.rs-calendar-time-dropdown-column ul::-webkit-scrollbar-corner {
+  background-color: black;
+}
+.rs-calendar-month-dropdown-row-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+.rs-calendar-month-dropdown-row-wrapper::-webkit-scrollbar-track {
+  display: none;
+}
+.rs-calendar-month-dropdown-row-wrapper::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.rs-calendar-month-dropdown-row-wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: #777e90;
+}
+.rs-calendar-table-cell-selected-start .rs-calendar-table-cell-content,
+.rs-calendar-table-cell-selected-end .rs-calendar-table-cell-content {
+  background-color: #45b36b !important;
+}
+.rs-calendar-table-cell-in-range:before {
+  background-color: rgba(69, 179, 107, 0.1) !important;
+  top: -2px !important;
+  height: 22px !important;
+}
+.rs-picker-toolbar-ranges .rs-btn-link {
+  color: #45b36b !important;
+}
+.rs-calendar-table-cell-selected .rs-calendar-table-cell-content {
+  background-color: #45b36b !important;
+}
+.rs-calendar-month-dropdown-year-active {
+  color: #45b36b !important;
+}
+.rs-calendar-month-dropdown-cell-active span {
+  background-color: #45b36b !important;
+}
+.rs-calendar-month-dropdown-cell span:hover {
+  color: #45b36b !important;
+  background-color: rgba(69, 179, 107, 0.1) !important;
+}
